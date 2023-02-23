@@ -1,0 +1,175 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+body {
+	font-family: 'League Spartan', sans-serif;
+}
+
+.header {
+  background: url(img/bg.png) no-repeat;
+  -webkit-background-size: 100%;
+}
+
+.header-container {
+  display: block;
+  width: 100%;
+  height: 768px;
+  left: 0;
+  top: 0;
+}
+
+.header-title {
+  padding-top: 41px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #DADADA;
+  margin-bottom: 318px;
+}
+
+.header-content {
+  text-align: center;
+  font-size: 60px;
+  line-height: 70px;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+
+.header-text {
+  text-align: center;
+  font-size: 20px;
+  line-height: 19px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-bottom: 221px;
+}
+
+.header-scroll {
+  text-align: center;
+  font-size: 11px;
+  line-height: 13px;
+  font-weight: 300;
+  letter-spacing: 3.7px;
+  color: #ffffff;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  height: 65px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #E6E6E6;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  margin-left: 250px;
+  margin-right: 450px;
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.nav-link-menu {
+  margin-left: 48px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #48555B;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 1px;
+}
+
+.nav-link.active {
+  color: #00A4E5;
+}
+
+.nav-link:hover {
+  color: #00A4E5;
+}
+
+.nav-link-menu:last-child {
+  margin-right: 0;
+}
+
+.main-story {
+  text-align: center;
+  margin-top: 57px;
+  color: #48555B;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 2.3px;
+  font-weight: 600;
+}
+
+.main-line {
+  width: 50px;
+  height: 2px;
+  margin-top: 10px;
+  border: 2px solid #00A4E5;
+  margin-left: 733px;
+}
+
+.main-contant {
+  display: flex;
+  margin-top: 80px;
+  margin-left: 249px;
+  align-items: flex-end;
+}
+
+.main-cont {
+  margin-right: 156px;
+}
+
+.main-p {
+  font-size: 20px;
+  line-height: 23px;
+  color: #48555B;
+  font-weight: 600;
+}
+
+.konstruct-p {
+  color: #16ACE8;
+}
+
+.main-p-2 {
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 23px;
+  color: #48555B;
+}
+
+.main-img {
+  margin-left: 30px;
+}
+
+.main-container-2 {
+  display: flex;
+  margin-top: 120px;
+}
