@@ -50,6 +50,7 @@ body {
   color: #ffffff;
   font-weight: 600;
   letter-spacing: 5px;
+  text-transform: uppercase;
 }
 
 .header-text {
